@@ -41,7 +41,7 @@
             .css('word-wrap', 'break-word')
             .css('overflow', 'auto')
             .css('position', 'absolute')
-            .css('left', '500px')
+            .css('left', '-10000px')
             .css('display', 'block')
             .css('line-height', $textArea.css('line-height'))
             .css('font-family', $textArea.css('font-family'))
