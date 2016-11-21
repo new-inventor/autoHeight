@@ -43,7 +43,15 @@
             .css('position', 'absolute')
             .css('left', '500px')
             .css('display', 'block')
-            .css('line-height', $textArea.css('line-height'));
+            .css('line-height', $textArea.css('line-height'))
+            .css('font-family', $textArea.css('font-family'))
+            .css('font-size', $textArea.css('font-size'))
+            .css('font-stretch', $textArea.css('font-stretch'))
+            .css('font-style', $textArea.css('font-style'))
+            .css('font-variant-caps', $textArea.css('font-variant-caps'))
+            .css('font-variant-ligatures', $textArea.css('font-variant-ligatures'))
+            .css('font-variant-numeric', $textArea.css('font-variant-numeric'))
+            .css('font-weight', $textArea.css('font-weight'));
         $('body').append($div);
         var height = $div.height();
         $div.remove();
